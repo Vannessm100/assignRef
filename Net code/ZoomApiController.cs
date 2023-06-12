@@ -6,7 +6,7 @@ namespace Sabio.Web.Api.Controllers
     public class ZoomApiController : BaseApiController
     {
         public IZoomService _service { get; set; }
-       // public ILogger<ZoomApiController> _logger { get; set; }
+     
 
         private IAuthenticationService<int> _authService = null;
         private ZoomConfig _zoomConfig;
