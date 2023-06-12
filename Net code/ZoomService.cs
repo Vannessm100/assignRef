@@ -1,29 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
-using Amazon.S3.Model;
-using Google.Apis.Auth.OAuth2.Responses;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using RestSharp;
-using RestSharp.Portable;
-using Sabio.Data.Providers;
-using Sabio.Models.AppSettings;
-using Sabio.Models.Domain.Zoom;
-using Sabio.Models.Requests.Zoom;
-using Sabio.Services.Interfaces;
-using Stripe;
-using static Google.Apis.Requests.BatchRequest;
-using IRestClient = RestSharp.IRestClient;
-using Method = RestSharp.Method;
-using ParameterType = RestSharp.ParameterType;
-using RestRequest = RestSharp.RestRequest;
-using RestResponse = RestSharp.RestResponse;
 
 namespace Sabio.Services
 {
