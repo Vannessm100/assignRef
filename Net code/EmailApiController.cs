@@ -1,16 +1,3 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using Sabio.Models.AppSettings;
-using Sabio.Models.Domain.Emails;
-using Sabio.Models.Requests.Zoom;
-using Sabio.Services;
-using Sabio.Services.Interfaces;
-using Sabio.Web.Controllers;
-using Sabio.Web.Models.Responses;
-using sib_api_v3_sdk.Model;
-using System;
-using System.Collections.Generic;
 
 namespace Sabio.Web.Api.Controllers
 {
