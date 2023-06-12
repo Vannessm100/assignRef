@@ -20,7 +20,7 @@ namespace Sabio.Services
 
         public string GetAuthenticationCode()
         {
-            //This local host is for development purposes only!!
+        
             var clientId = _zoomConfig.ClientId;
             var redirectUri = _zoomConfig.RedirectUrl;
             var authorizationUrl = $"https://zoom.us/oauth/authorize?response_type=code&client_id={clientId}&redirect_uri={redirectUri}";
