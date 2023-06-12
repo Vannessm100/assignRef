@@ -1,26 +1,3 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using Newtonsoft.Json.Linq;
-using NuGet.Common;
-using RestSharp;
-using Sabio.Models;
-using Sabio.Models.AppSettings;
-using Sabio.Models.Domain.Zoom;
-using Sabio.Models.Requests.Zoom;
-using Sabio.Services;
-using Sabio.Services.Interfaces;
-using Sabio.Web.Controllers;
-using Sabio.Web.Models.Responses;
-using Stripe;
-using System;
-using System.Net;
-using System.Security.AccessControl;
-using System.Threading.Tasks;
-
 
 namespace Sabio.Web.Api.Controllers
 {
