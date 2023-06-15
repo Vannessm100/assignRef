@@ -1,13 +1,3 @@
-import React, { useEffect, useState } from "react";
-import zoomService from "services/zoomService";
-import debug from "sabio-debug";
-import { Col, Row, Container, Card } from "react-bootstrap";
-import TitleHeader from "components/general/TitleHeader";
-import { formatDateTime } from "utils/dateFormater";
-import SearchedMeetingCard from "./SearchedMeetingCard";
-import toastr from "toastr";
-import PropTypes from "prop-types";
-
 function SeeUserMeetings({ currentUser }) {
   const [userInfo, setUserinfo] = useState({
     userId: currentUser.id,
