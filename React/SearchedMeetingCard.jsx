@@ -1,7 +1,3 @@
-import React from "react";
-import { Card } from "react-bootstrap";
-import PropTypes from "prop-types";
-import { formatDateTime } from "utils/dateFormater";
 
 function SearchedMeetingCard(props) {
   const meetingData = props.meeting;
