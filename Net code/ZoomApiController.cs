@@ -1,9 +1,6 @@
 
 namespace Sabio.Web.Api.Controllers
 {
-
-
-
     namespace Sabio.Web.Api.Controllers
     {
         [Route("api/zoom")]
