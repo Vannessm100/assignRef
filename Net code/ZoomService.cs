@@ -1,34 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using RestSharp;
-using RestSharp.Portable;
-using Sabio.Data.Providers;
-using Sabio.Models.AppSettings;
-using Sabio.Models.Domain.Zoom;
-using Sabio.Models.Requests.Zoom;
-using Sabio.Services.Interfaces;
-using IRestClient = RestSharp.IRestClient;
-using Method = RestSharp.Method;
-using ParameterType = RestSharp.ParameterType;
-using RestRequest = RestSharp.RestRequest;
-using RestResponse = RestSharp.RestResponse;
-using System.Data;
-using Sabio.Data;
-
-
 namespace Sabio.Services
 {
-
-
     public class ZoomService : IZoomService
     {
         private IRestClient _restClient;
